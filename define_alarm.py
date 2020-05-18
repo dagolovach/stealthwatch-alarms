@@ -85,7 +85,7 @@ def get_alarm_info(alarm=None):
     return requested_list
 
 
-def main(user_input):
+def define_alarm(user_input):
     """Main Function to check user input. Possible options:
         - python define_alarm.py udp
         - python define_alarm.py udp-flood
@@ -94,6 +94,9 @@ def main(user_input):
     Arguments:
         user_input {str} -- alarm name or some search
     """
+    if user_input == '--list':
+        get_alarm_list()
+        return
     if '-' in user_input:
         alarm = user_input.replace('-', ' ')
     else:
@@ -105,9 +108,6 @@ def main(user_input):
 # Run main function
 if __name__ == "__main__":
     if len(sys.argv) == 2:
-        if sys.argv[1] == '--list':
-            get_alarm_list()
-        else:
-            main(sys.argv[1])
+        define_alarm(sys.argv[1])
     else:
         raise SyntaxError("Insufficient arguments.")
