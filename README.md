@@ -9,7 +9,6 @@ I decided to create a kind of API and parsed PDF into the JSON file with informa
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
 * [Usage](#usage)
-* [Breakdown](#breakdown)
 * [Contact](#contact)
 
 ## Built With
@@ -55,10 +54,6 @@ git clone https://github.com/dagolovach/stealthwatch-alarms.git
 % python3 define_alarm.py "udp flood"
 ```
 <img width="600" alt="Screen Shot 2020-05-17 at 10 19 08 PM" src="https://user-images.githubusercontent.com/39305133/82171271-7096dd00-988c-11ea-8f79-84c0364e8f79.png">
-
-<!-- BREAKDOWN -->
-## Breakdown
-* Breakdown post [here](https://dmitrygolovach.com/webapp-ise-python-flask/)
 
 <!-- CONTACT -->
 ## Contact
