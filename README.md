@@ -1,6 +1,6 @@
 # Simple script to get Stealthwatch alarm definition
 
-I was not able to find any Stealthwatch API for Alarms definition. But there is a guide: "Security Events and Alarm Categories {ver}"
+I was not able to find any Stealthwatch API for Alarms definition. But there is a [guide](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/securit_events_alarm_categories/SW_7_2_Security_Events_and_Alarm_Categories_DV_1_0.pdf): "Security Events and Alarm Categories {ver}" 
 I decided to create a kind of API and parsed PDF into the JSON file with information about Alarms
 
 <!-- TABLE OF CONTENTS -->
