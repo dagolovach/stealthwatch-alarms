@@ -1,7 +1,8 @@
 # Simple script to get Stealthwatch alarm definition
 
-I was not able to find any Stealthwatch API for Alarms definition. But there is a [guide](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/securit_events_alarm_categories/SW_7_2_Security_Events_and_Alarm_Categories_DV_1_0.pdf): "Security Events and Alarm Categories {ver}" 
-I decided to create a kind of API and parsed PDF into the JSON file with information about Alarms
+I was not able to find any Stealthwatch API for Alarm's definitions. But there is a [guide](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/securit_events_alarm_categories/SW_7_2_Security_Events_and_Alarm_Categories_DV_1_0.pdf): "Security Events and Alarm Categories {ver}".
+
+I decided to create a kind of API and parsed PDF into the JSON file with information about Alarms. Simple and easy to use.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -11,7 +12,7 @@ I decided to create a kind of API and parsed PDF into the JSON file with informa
 * [Breakdown](#breakdown)
 * [Contact](#contact)
 
-### Built With
+## Built With
 * Python3
 
 <!-- GETTING STARTED -->
@@ -42,13 +43,13 @@ git clone https://github.com/dagolovach/stealthwatch-alarms.git
 ```
 <img width="300" alt="Screen Shot 2020-05-17 at 10 17 06 PM" src="https://user-images.githubusercontent.com/39305133/82171165-27468d80-988c-11ea-8fa4-8a5401ea7551.png">
 
-* Getting the list of all with TCP
+* Getting the list of all alarms with TCP in the name
 ```sh
 % python3 define_alarm.py tcp 
 ```
 <img width="600" alt="Screen Shot 2020-05-17 at 10 18 32 PM" src="https://user-images.githubusercontent.com/39305133/82171244-59f08600-988c-11ea-93e5-173b1c7d858a.png">
 
-* Getting info do specific Alarm
+* Getting info for specific Alarm
 ```sh
 % python3 define_alarm.py udp-flood
 % python3 define_alarm.py "udp flood"
@@ -58,7 +59,6 @@ git clone https://github.com/dagolovach/stealthwatch-alarms.git
 <!-- BREAKDOWN -->
 ## Breakdown
 * Breakdown post [here](https://dmitrygolovach.com/webapp-ise-python-flask/)
-* How it works [youtube](https://youtu.be/xbWCEKQG22c)
 
 <!-- CONTACT -->
 ## Contact
