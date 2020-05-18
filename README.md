@@ -40,20 +40,20 @@ git clone https://github.com/dagolovach/stealthwatch-alarms.git
 ```sh
 % python3 define_alarm.py --list
 ```
-<img width="498" alt="Screen Shot 2020-05-17 at 10 17 06 PM" src="https://user-images.githubusercontent.com/39305133/82171165-27468d80-988c-11ea-8fa4-8a5401ea7551.png">
+<img width="300" alt="Screen Shot 2020-05-17 at 10 17 06 PM" src="https://user-images.githubusercontent.com/39305133/82171165-27468d80-988c-11ea-8fa4-8a5401ea7551.png">
 
 * Getting the list of all with TCP
 ```sh
 % python3 define_alarm.py tcp 
 ```
-<img width="1126" alt="Screen Shot 2020-05-17 at 10 18 32 PM" src="https://user-images.githubusercontent.com/39305133/82171244-59f08600-988c-11ea-93e5-173b1c7d858a.png">
+<img width="600" alt="Screen Shot 2020-05-17 at 10 18 32 PM" src="https://user-images.githubusercontent.com/39305133/82171244-59f08600-988c-11ea-93e5-173b1c7d858a.png">
 
 * Getting info do specific Alarm
 ```sh
 % python3 define_alarm.py udp-flood
 % python3 define_alarm.py "udp flood"
 ```
-<img width="1127" alt="Screen Shot 2020-05-17 at 10 19 08 PM" src="https://user-images.githubusercontent.com/39305133/82171271-7096dd00-988c-11ea-8f79-84c0364e8f79.png">
+<img width="600" alt="Screen Shot 2020-05-17 at 10 19 08 PM" src="https://user-images.githubusercontent.com/39305133/82171271-7096dd00-988c-11ea-8f79-84c0364e8f79.png">
 
 <!-- BREAKDOWN -->
 ## Breakdown
